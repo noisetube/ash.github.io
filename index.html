@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ash Maguire | Executive, Founder, Product &amp; UX Strategist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fdfdfd;
+      --primary: #4B8DF8;
+      --dark: #222;
+      --light: #666;
+      --accent: #ffb703;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+      z-index: 10;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      list-style: none;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--dark);
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: var(--primary);
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: var(--light);
+    }
+    button.cta {
+      background: var(--primary);
+      color: #fff;
+      padding: 0.75rem 1.25rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    button.cta:hover {
+      background: #296fd6;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1rem;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+    .timeline {
+      margin-left: 1rem;
+      border-left: 2px solid var(--primary);
+    }
+    .timeline-item {
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .timeline-item h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .timeline-item span {
+      font-size: 0.9rem;
+      color: var(--light);
+    }
+    footer {
+      background: var(--dark);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-wrap: wrap;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Ash Maguire</h1>
+    <p>Executive • Founder • Product &amp; UX Strategist</p>
+    <a href="#contact"><button class="cta">Let's Connect</button></a>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I’m Ashley Maguire—founder, executive, and product strategist based in Santa&nbsp;Fe, New&nbsp;Mexico. With a background in human‑computer interaction and nearly two decades of experience leading cross‑functional teams, I specialize in turning abstract ideas into scalable, user‑centered products.</p>
+    <p>Right now, I’m building <strong>Helen’s Foundry</strong>, a SaaS platform helping startups align strategy, research, and development in a repeatable way. Previously, I led UX and front‑end engineering at <strong>Dragos</strong>, where I shaped a cohesive user experience and accelerated release velocity.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Founder &amp; CEO — Helen’s Foundry, Inc.</h3>
+        <span>2024 – Present • Santa Fe, NM</span>
+        <p>Creating tools and structure that guide software startups to build the right things, the right way.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Director of User Engineering — Dragos, Inc.</h3>
+        <span>2023</span>
+        <p>Merged design and front‑end engineering into a high‑impact user engineering team, reducing release cycles by 85%.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Director of User Experience — Dragos, Inc.</h3>
+        <span>2021 – 2023</span>
+        <p>Defined UX vision, hired and mentored designers, and communicated strategy at the executive and board level.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Senior UX Designer — Dragos, Inc.</h3>
+        <span>2020 – 2021</span>
+      </div>
+      <div class="timeline-item">
+        <h3>Senior UX Designer — RS21</h3>
+        <span>2019 – 2020</span>
+      </div>
+      <div class="timeline-item">
+        <h3>UX Lead — Descartes Labs</h3>
+        <span>2018 – 2019</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>MBA</strong>, Cornell University</li>
+      <li><strong>MS, Human‑Computer Interaction</strong>, Iowa State University</li>
+      <li><strong>Bachelor of Individualized Studies</strong>, New Mexico State University</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my full resume below.</p>
+    <a href="Ashley%20Maguire%20Resume%202025.pdf" download><button class="cta">Download PDF</button></a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let’s talk about product strategy, UX leadership, or building impactful software.</p>
+    <p><strong>Email:</strong> <a href="mailto:ashley@helensfoundry.com">ashley@helensfoundry.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ashley--maguire" target="_blank">linkedin.com/in/ashley--maguire</a></p>
+    <p><strong>Location:</strong> Santa Fe, New Mexico</p>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Ash Maguire. Built with ❤️ and GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
